@@ -18,7 +18,7 @@ export default {
     },
     {
       text: 'Set History',
-      url: '/resources/set-history/'
+      url: '/set-history/'
     },
     {
       text: 'Resources',
@@ -34,7 +34,7 @@ export default {
         },
         {
           text: 'Set History',
-          url: '/resources/set-history/'
+          url: '/Resources/set-history/'
         },
         {
           text: 'Submit Music',
