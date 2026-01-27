@@ -1,3 +1,9 @@
+---
+title: 'About'
+description: 'Commitment to digital accessibility and how to report accessibility issues.'
+date: "Last Modified"
+layout: page
+---
 # About
 
 1. A GitHub Action generates `/v1/deejay-sets/deejay_set_collection.json`
