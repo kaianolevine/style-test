@@ -9,7 +9,7 @@ export default {
       url: '/locate/'
     },
     {
-      text: 'Resources',
+      text: 'resources',
       url: '/resources/',
       submenu: [
         {
