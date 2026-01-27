@@ -1,5 +1,10 @@
-# Submit Music
-
+---
+title: 'Submit Music'
+description: 'Submit Music.'
+date: "Last Modified"
+permalink: /submit-music/index.html
+layout: page
+---
 ## Step 1: 
 
 Check if your song has already been received: link here.
