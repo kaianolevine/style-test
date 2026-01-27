@@ -9,20 +9,26 @@ export default {
       url: '/locate/'
     },
     {
-      text: 'Recently Played',
-      url: '/resources/recently-played/'
-    },
-    {
-      text: 'Routine Music',
-      url: '/resources/routine-music/'
-    },
-    {
-      text: 'Set History',
-      url: '/resources/set-history/'
-    },
-    {
-      text: 'Submit Music',
-      url: '/submit-music/'
+      text: 'resources',
+      url: '/resources/',
+      submenu: [
+        {
+          text: 'Recently Played',
+          url: '/resources/recently-played/'
+        },
+        {
+          text: 'Routine Music',
+          url: '/resources/routine-music/'
+        },
+        {
+          text: 'Set History',
+          url: '/resources/set-history/'
+        },
+        {
+          text: 'Submit Music',
+          url: '/submit-music/'
+        },
+      ]
     },
   ],
   bottom: [
