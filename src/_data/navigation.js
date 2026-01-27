@@ -17,6 +17,10 @@ export default {
       url: '/locate/'
     },
     {
+      text: 'Set History',
+      url: '/resources/set-history/'
+    },
+    {
       text: 'Resources',
       url: '/resources/',
       submenu: [
