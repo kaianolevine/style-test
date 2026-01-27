@@ -1,6 +1,6 @@
 ---
 title: 'About'
-description: 'Commitment to digital accessibility and how to report accessibility issues.'
+description: 'About.'
 date: "Last Modified"
 permalink: /about/index.html
 layout: page

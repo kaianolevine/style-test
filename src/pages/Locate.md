@@ -1,3 +1,10 @@
+---
+title: 'Locate'
+description: 'Locate.'
+date: "Last Modified"
+permalink: /locate/index.html
+layout: page
+---
 # Locate
 
 <div style="margin-top: 12px;">

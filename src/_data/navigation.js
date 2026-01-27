@@ -13,6 +13,10 @@ export default {
       url: '/built-with/'
     },
     {
+      text: 'Locate',
+      url: '/locate/'
+    },
+    {
       text: 'Blog',
       url: '/blog/'
     }
