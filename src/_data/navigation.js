@@ -5,14 +5,6 @@ export default {
       url: '/about/'
     },
     {
-      text: 'Docs',
-      url: '/get-started/'
-    },
-    {
-      text: 'Built with',
-      url: '/built-with/'
-    },
-    {
       text: 'Locate',
       url: '/locate/'
     },
@@ -25,23 +17,13 @@ export default {
       url: '/routine-music/'
     },
     {
-      text: 'Resources',
-      url: '/resources/',
-      submenu: [
-        {
-          text: 'Set History',
-          url: '/set-history/'
-        },
-        {
-          text: 'Submit Music',
-          url: '/submit-music/'
-        },
-      ]
+      text: 'Set History',
+      url: '/set-history/'
     },
     {
-      text: 'Blog',
-      url: '/blog/'
-    }
+      text: 'Submit Music',
+      url: '/submit-music/'
+    },
   ],
   bottom: [
     {
