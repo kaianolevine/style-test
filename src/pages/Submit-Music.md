@@ -2,7 +2,7 @@
 title: 'Submit Music'
 description: 'Submit Music.'
 date: "Last Modified"
-permalink: /resources/submit-music/index.html
+permalink: /submit-music/index.html
 layout: page
 ---
 ## Step 1: 
