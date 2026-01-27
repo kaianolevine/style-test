@@ -1,4 +1,10 @@
-# Press Kit
+---
+title: 'Press Kit'
+description: 'Press Kit.'
+date: "Last Modified"
+permalink: /booking/press-kit/index.html
+layout: page
+---
 
 [All Promo Materials](https://drive.google.com/drive/folders/10ndBnflLBuh7WquzTkoLgcAXwbtBT_YD?usp=sharing)
 

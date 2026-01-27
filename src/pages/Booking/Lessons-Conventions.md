@@ -1,4 +1,10 @@
-# Lesson - Conventions
+---
+title: 'Lesson - Conventions'
+description: 'Lesson - Conventions.'
+date: "Last Modified"
+permalink: /booking/lessons-conventions/index.html
+layout: page
+---
 
 [West Coast Swing - Booking Link]()
 

@@ -1,4 +1,10 @@
-# Lesson - Minnesota
+---
+title: 'Lesson - Minnesota'
+description: 'Lesson - Minnesota.'
+date: "Last Modified"
+permalink: /booking/lessons-mn/index.html
+layout: page
+---
 
 [West Coast Swing - Booking Link]()
 

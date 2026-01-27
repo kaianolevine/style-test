@@ -1,3 +1,11 @@
+---
+title: 'Booking'
+description: 'Booking.'
+date: "Last Modified"
+permalink: /booking/booking/index.html
+layout: page
+---
+
 # Booking
 
 [West Coast Swing - Booking Link]()

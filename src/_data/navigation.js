@@ -35,6 +35,32 @@ export default {
       ]
     },
     {
+      text: 'Booking',
+      url: '/booking/',
+      submenu: [
+        {
+          text: 'Booking',
+          url: '/booking/booking/'
+        },
+        {
+          text: 'Lessons - Conventions',
+          url: '/booking/lessons-conventions/'
+        },
+        {
+          text: 'Lessons - Minnesota',
+          url: '/booking/lessons-mn/'
+        },
+        {
+          text: 'Meetings',
+          url: '/booking/meetings/'
+        },
+        {
+          text: 'Press Kit',
+          url: '/booking/press-kit/'
+        }
+      ]
+    },
+    {
       text: 'Contact',
       url: '/contact/'
     },
