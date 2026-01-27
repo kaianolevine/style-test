@@ -14,15 +14,15 @@ export default {
       submenu: [
         {
           text: 'Recently Played',
-          url: '/recently-played/'
+          url: '/resources/recently-played/'
         },
         {
           text: 'Routine Music',
-          url: '/routine-music/'
+          url: '/resources/routine-music/'
         },
         {
           text: 'Set History',
-          url: '/set-history/'
+          url: '/resources/set-history/'
         },
         {
           text: 'Submit Music',
