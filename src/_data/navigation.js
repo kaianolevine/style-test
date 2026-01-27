@@ -18,7 +18,7 @@ export default {
       submenu: [
         {
           text: 'Recently Played',
-          url: '/resources/recent-played/'
+          url: '/resources/recently-played/'
         },
         {
           text: 'Routine Music',
