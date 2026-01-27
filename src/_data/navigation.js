@@ -13,24 +13,24 @@ export default {
       url: '/locate/'
     },
     {
-      text: 'Folder',
-      url: '/learning/philosophy/',
+      text: 'Resources',
+      url: '/resources/',
       submenu: [
         {
-          text: 'One',
-          url: '/learning/class-philosophy/'
+          text: 'Recently Played',
+          url: '/resources/recent-played/'
         },
         {
-          text: 'Two',
-          url: '/learning/westie-academy/'
+          text: 'Routine Music',
+          url: '/resources/routine-music/'
         },
         {
-          text: 'guided',
-          url: '/learning/guided-practice/'
+          text: 'Set History',
+          url: '/resources/set-history/'
         },
         {
-          text: 'policies',
-          url: '/learning/class-policies/'
+          text: 'Submit Music',
+          url: '/resources/submit-music/'
         }
       ]
     },
