@@ -1,4 +1,4 @@
-# About
+# How it works
 
 1. A GitHub Action generates `/v1/deejay-sets/deejay_set_collection.json`
 2. Cloudflare Pages serves the static site

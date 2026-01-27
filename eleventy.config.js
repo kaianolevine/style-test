@@ -111,6 +111,8 @@ export default async function (eleventyConfig) {
     'node_modules/lite-youtube-embed/src/lite-yt-embed.{css,js}': `assets/components/`
   });
 
+  eleventyConfig.addPassthroughCopy({ "src/v1": "v1" });
+
   // ----------------------  ignore test files
   if (process.env.ELEVENTY_ENV != 'test') {
     eleventyConfig.ignores.add('src/common/pa11y.njk');
