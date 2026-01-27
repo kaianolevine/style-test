@@ -1,6 +1,10 @@
-# Contact
-
-
+---
+title: 'Contact'
+description: 'Contact.'
+date: "Last Modified"
+permalink: /contact/index.html
+layout: page
+---
 ## Email:
 [kaiano.levine@gmail.com](kaiano.levine@gmail.com)
 

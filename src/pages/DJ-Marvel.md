@@ -1,13 +1,18 @@
-# DJ Marvel
-
+---
+title: 'DJ Marvel'
+description: 'DJ Marvel.'
+date: "Last Modified"
+permalink: /dj-marvel/index.html
+layout: page
+---
 Complete collection of all set history.  
-[Set History](#/Resources/Set-History)
+[Set History](/resources/set-history/index.html)
 
 Recently played, last 50 songs.  
-[Recently Played Song](#/Resources/Recent-Played)
+[Recently Played Song](/resources/Recent-Played)
 
 Information for routine competitors for music and floor trials.  
-[Routine Music Homepage](#/Resources/Routine-Music)
+[Routine Music Homepage](/resources/Routine-Music)
 
 Check to see if music has been received.  
-[Submitted Routine Music](#/Resources/Submit-Music)
+[Submitted Routine Music](/resources/Submit-Music)

@@ -9,26 +9,28 @@ export default {
       url: '/locate/'
     },
     {
-      text: 'resources',
-      url: '/resources/',
-      submenu: [
-        {
-          text: 'Recently Played',
-          url: '/resources/recently-played/'
-        },
-        {
-          text: 'Routine Music',
-          url: '/resources/routine-music/'
-        },
-        {
-          text: 'Set History',
-          url: '/resources/set-history/'
-        },
-        {
-          text: 'Submit Music',
-          url: '/submit-music/'
-        },
-      ]
+      text: 'Contact',
+      url: '/contact/'
+    },
+    {
+      text: 'DJ Marvel',
+      url: '/dj-marvel/'
+    },
+    {
+      text: 'Recently Played',
+      url: '/resources/recently-played/'
+    },
+    {
+      text: 'Routine Music',
+      url: '/resources/routine-music/'
+    },
+    {
+      text: 'Set History',
+      url: '/resources/set-history/'
+    },
+    {
+      text: 'Submit Music',
+      url: '/resources/submit-music/'
     },
   ],
   bottom: [
