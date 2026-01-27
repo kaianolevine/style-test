@@ -13,6 +13,28 @@ export default {
       url: '/locate/'
     },
     {
+      text: 'Folder',
+      url: '/learning/philosophy/',
+      submenu: [
+        {
+          text: 'One',
+          url: '/learning/class-philosophy/'
+        },
+        {
+          text: 'Two',
+          url: '/learning/westie-academy/'
+        },
+        {
+          text: 'guided',
+          url: '/learning/guided-practice/'
+        },
+        {
+          text: 'policies',
+          url: '/learning/class-policies/'
+        }
+      ]
+    },
+    {
       text: 'Contact',
       url: '/contact/'
     },
