@@ -5,24 +5,177 @@ title: 'Kaiano Levine'
 description: 'Home.'
 ---
 
-<div class="wrapper">
-  <header class="full | section" style="--spot-color: var(--color-primary)">
-    <div class="section__inner flow region">
-      <h1 class="text-center" style="color: var(--color-light);">{{ title }}</h1>
-    </div>
-    {% svg "divider/waves", null, "divider" %}
-  </header>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title }}</title>
 
-  <article class="full | region">
-    <div class="prose wrapper flow">
-      <h2 id="an-eleventy-starter">An Eleventy starter</h2>
-      <p>
-        Built around a CSS workflow that emphasizes guiding browser styling rather than micromanaging it. It
-        incorporates progressive enhancement, fluid type and spacing, and utilizes modern CSS features for
-        layout. The goal is to develop frontends that provide a great experience across all devices,
-        connection speeds, and usage contexts.
-      </p>
-      <p><strong>Have fun</strong> and let me know if you find any issues or have ideas for improvements!</p>
-    </div>
-  </article>
-</div>
+    {# If you already have site-wide CSS, keep it here #}
+    <link rel="icon" href="/assets/images/newfavicon.PNG" />
+  </head>
+
+  <body>
+    {# ---------------- NAV ---------------- #}
+    <header>
+      <nav aria-label="Primary">
+        {% set nav = [
+          { label: "HOME", href: "/" },
+          {
+            label: "BOOKING",
+            children: [
+              { label: "BOOK NOW", href: "/booking/book-now/" },
+              { label: "PRESS KIT", href: "/booking/press-kit/" }
+            ]
+          },
+          {
+            label: "CONTENT",
+            children: [
+              { label: "DJ MARVEL", href: "/content/dj-marvel/" },
+              { label: "SPOTIFY", href: "/content/spotify/" },
+              { label: "MUSIC SUBMISSION", href: "/content/music-submission/" },
+              { label: "VIDEOS", href: "/content/videos/" },
+              { label: "PHOTOS", href: "/content/photos/" }
+            ]
+          },
+          { label: "LOCATE", href: "/locate/" },
+          { label: "CONTACT", href: "/contact/" }
+        ] %}
+
+        <ul>
+          {% for item in nav %}
+            <li>
+              {% if item.children %}
+                <details>
+                  <summary>{{ item.label }}</summary>
+                  <ul>
+                    {% for child in item.children %}
+                      <li><a href="{{ child.href }}">{{ child.label }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </details>
+              {% else %}
+                <a href="{{ item.href }}">{{ item.label }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      {# ---------------- HERO ---------------- #}
+      <section>
+        <img
+          src="/assets/images/Captain%20America%20Final.png"
+          alt="Hero image"
+          loading="eager"
+        />
+        <h1>KAIANO LEVINE</h1>
+        <h2>Harnessing The Power of Swing</h2>
+      </section>
+
+      {# ---------------- QUICK LINKS ---------------- #}
+      <section aria-labelledby="quick-links">
+        <h3 id="quick-links">
+          <img src="/assets/images/newfavicon.PNG" alt="" />
+          Quick Links
+        </h3>
+
+        {% set quickLinks = [
+          { title: "Locate", subtitle: "Lesson Booking", href: "/locate/" },
+          { title: "Locate", subtitle: "Event Schedule", href: "/locate/" },
+          { title: "Music", subtitle: "Deejay Sets", href: "/content/dj-marvel/" },
+          { title: "Promo Material", subtitle: "Promotional Materials", href: "/booking/press-kit/" },
+          { title: "Contact", subtitle: "Comments, Questions, or Concerns", href: "/contact/" }
+        ] %}
+
+        <ul>
+          {% for q in quickLinks %}
+            <li>
+              <a href="{{ q.href }}">{{ q.title }}</a>
+              <div>{{ q.subtitle }}</div>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <img
+          src="/assets/images/238674705_10223948899845329_652654166012782726_n.jpg"
+          alt="Kaiano photo"
+          loading="lazy"
+        />
+      </section>
+
+      {# ---------------- SOCIAL ---------------- #}
+      <section>
+        <h4>Dancers in distress?</h4>
+        <p>The World need saving? See what's happening on Kai's Social Media</p>
+
+        {% set socials = [
+          { label: "YouTube", href: "https://www.youtube.com/", icon: "/assets/images/YouTube%20-%20Black%20Circle.png" },
+          { label: "Facebook", href: "https://www.facebook.com/", icon: "/assets/images/Facebook%20-%20Black%20Circle.png" },
+          { label: "Instagram", href: "https://www.instagram.com/", icon: "/assets/images/Instagram%20-%20Black%20Circle.png" },
+          { label: "Spotify", href: "https://open.spotify.com/", icon: "/assets/images/Spotify%20-%20Black%20Circle.png" }
+        ] %}
+
+        <ul>
+          {% for s in socials %}
+            <li>
+              <a href="{{ s.href }}" rel="noopener">
+                <img src="{{ s.icon }}" alt="{{ s.label }}" loading="lazy" />
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      {# ---------------- TESTIMONIAL ---------------- #}
+      <section aria-labelledby="testimonial">
+        <h3 id="testimonial">Get Eye-Witness Accounts</h3>
+
+        <figure>
+          <blockquote>
+            Kaiano not only gives incredibly insightful feedback, but backs up his information with sources,
+            drills, and varying options depending on skill level. He listens to his students' goals and provides
+            clear ways to achieve them. I've both taken lessons and watched him give privates and was amazed at
+            how much content he delivered in such a digestible way - the definition of a lot of bang for your buck.
+            He is kind and invested in your unique experience. I cannot recommend him enough for ALL dancers who want
+            to level up their swing!
+          </blockquote>
+          <figcaption>- Casey</figcaption>
+        </figure>
+      </section>
+
+      {# ---------------- POWERS (placeholder content) ---------------- #}
+      <section aria-labelledby="powers">
+        <h3 id="powers">Kai's 5 Favorite Powers</h3>
+
+        {% set powers = [
+          {
+            title: "Super Speed",
+            body: "Being able to travel anywhere in the world in a matter of minutes, or even seconds! Not to mention having the time for the regular crime fighting."
+          }
+        ] %}
+
+        {% for p in powers %}
+          <article>
+            <h4>{{ p.title }}</h4>
+            <p>{{ p.body }}</p>
+          </article>
+        {% endfor %}
+      </section>
+
+      {# ---------------- LOCATE CTA ---------------- #}
+      <section aria-labelledby="locate-cta">
+        <h3 id="locate-cta"><a href="/locate/">LOCATE Kai</a></h3>
+        <p><strong>He won't shield his schedule from you:</strong> see what upcoming events Kai will be involved with.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Kaiano Levine</p>
+      <p><a href="/privacy-policy/">Privacy Policy</a></p>
+    </footer>
+  </body>
+</html>
